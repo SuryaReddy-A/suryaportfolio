@@ -1,0 +1,51 @@
+style.css
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Home */
+#home {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #fff;
+}
+
+/* Skills */
+#skills {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+.skill-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+.skill-box:hover {
+  transform: scale(1.1);
+}
+
+/* Contact */
+#contact {
+  background: linear-gradient(135deg, #000428, #004e92);
+}
+#abc{
+  padding-top: 8%;
+
+}
+
+
+
+
+
